@@ -9,6 +9,19 @@ sem depender de credenciais ou de um ambiente privado.
 > A suíte é executada em três motores de navegador — **Chromium, Firefox e
 > WebKit** — a partir do mesmo conjunto de specs.
 
+## Propósito
+
+Este repositório é um **modelo/vitrine para o GitHub**, criado por quem **já
+atua como QA** e quer mostrar, na prática, um pouco do próprio trabalho e da
+forma como pensa testes. Não é um tutorial de "primeiros passos" — é uma
+amostra de como estruturo uma suíte de automação real: organização do código,
+uso de seletores acessíveis, documentação dos cenários e integração contínua.
+
+A ideia é servir como cartão de visitas técnico: qualquer pessoa (recrutador,
+tech lead ou colega de time) consegue clonar, rodar e entender rapidamente as
+decisões de automação — usando um alvo público e estável para que o foco fique
+na **qualidade dos testes**, e não na aplicação em si.
+
 ## O que este projeto demonstra
 
 - Seletores acessíveis com `getByRole` (padrão recomendado pelo Playwright)
